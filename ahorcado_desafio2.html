@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alura Challenge Desafio2 - Ahorcado</title>
+        <link rel="StyleSheet" href="css/reto2.css" />
+    </head>
+
+    <section class="fondo">
+        <div>
+            <img src="img/horca.png" class="imagen" id="horca">
+            <ul id="deletrear"></ul>
+            <ul id="perdio"></ul>
+        </div>
+        <div>
+            <form id="form-jugar">
+                <button id="nuevo-juego" class="button_3">Nuevo Juego</button>
+                <button id="cancelar" class="button_4">Desistir</button>
+            </form>
+
+            <form id="form-adicionar">
+                <input id="rectangle_1" name="nuevaP" type="text" placeholder="Digite una Nueva Palabra" class="campo">
+                <button id="adicionar-palabra" class="button_5">Guardar Palabra</button>
+            </form>
+        </div>
+        <div>
+            <form id="form-palabras">
+                <table>
+                    <tbody id="tabla-palabras">
+                        <tr class="palabra">
+                            <td class="info-palabra">PROGRAMADOR</td>
+                        </tr>
+                        <tr class="palabra" >
+                            <td class="info-palabra">COMPUTADOR</td>
+                        </tr>
+                        <tr class="palabra" >
+                            <td class="info-palabra">JAVA</td>
+                        </tr>
+                        <tr class="palabra">
+                            <td class="info-palabra">ALURA</td>
+                        </tr>
+                        <tr class="palabra" >
+                            <td class="info-palabra">DESAFIO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        
+    </section>        
+
+    <script src="js/palabras.js"></script>
+
+</html>
